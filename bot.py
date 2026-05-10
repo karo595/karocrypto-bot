@@ -7,7 +7,8 @@ from datetime import datetime, timedelta
 
 API_ID = 36079863
 API_HASH = "e4a66a16a0179b5b4a9fa6f753130b8c"
-CLAUDE_API_KEY = "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"
+import os
+CLAUDE_API_KEY = os.environ.get("CLAUDE_API_KEY")
 BOT_TOKEN = "8651918293:AAF5FhpFoVaNVOylaKh225oQHjaXtN-vepY"
 CHAT_ID = 8113123435
 
